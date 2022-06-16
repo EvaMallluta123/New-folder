@@ -4,13 +4,11 @@ let item1=[]
 let price1=[]
 item1.push(prompt("Add an item:"))
 price1.push(prompt("Add the price of the item:"))
-item.push(item1)
-price.push(price1)
+item.push([item1])
+price.push([price1])
 for (var i=0; i<item.length; i++){
 var namestring = item[i]+ ": " + " £"+price[i].toFixed(2)
 console.log(namestring )
 }
 
-// item.push= prompt("Add an item?")
-// price=prompt("Add the price?")
-// console.log(item,price)
+
