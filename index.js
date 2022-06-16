@@ -10,5 +10,11 @@ for (var i=0; i<item.length; i++){
 var namestring = item[i]+ ": " + " £"+price[i].toFixed(2)
 console.log(namestring )
 }
+for (let total of item){
+    total+= price
+    console.log("The total is: "+ total)
+
+}
+
 
 
